@@ -2,7 +2,7 @@
 
 echo "Greenbone - Assessment Task -- Ahtasham Ul Hassan"
 echo "--------------------------------------------------"
-echo "Entrypoint script started"
+echo "Started"
 
 # Check if the file exists
 if [ -f "$1" ]; then
@@ -15,8 +15,8 @@ if [ -f "$1" ]; then
   cat "$1"
   echo "--------------------------------------------------"
 else
-  echo "File not found!"
+  echo "File not found"
   exit 1
 fi
 
-echo "Entrypoint script finished!!Done"
+echo "Finished"
