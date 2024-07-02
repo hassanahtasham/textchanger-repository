@@ -1,0 +1,9 @@
+name: 'File Changer Action'
+description: 'Altering tag 1 to tag 2 in file'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+inputs:
+  file_path:
+    description: 'Path to the text file'
+    required: true
